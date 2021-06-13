@@ -24,8 +24,6 @@ export const AppReducer = (state, action) => {
 // 1. Sets the initial state when the app loads
 const initialState = {
 	expenses: [
-		{ id: uuidv4(), name: 'Shopping', cost: 50 },
-		{ id: uuidv4(), name: 'Holiday', cost: 300 },
 	],
 };
 
